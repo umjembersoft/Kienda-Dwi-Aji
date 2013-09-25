@@ -1,0 +1,78 @@
+Request..
+
+GET /dh/ap/default/130924/natalie-KL.jpg HTTP/1.1
+ket: Mengambil data Login dari server
+______________________________________________________________
+Host: l.yimg.com
+Ket: Nama sebuah komputer yang terhubung pada internet (terhubung pada yahoo)
+______________________________________________________________
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:15.0) Gecko/20100101 Firefox/15.0.1
+ket: Clien menggunakan browser mozila Firefox/15.0.1
+______________________________________________________________
+Accept: image/png,image/*;q=0.8,*/*;q=0.5
+Ket: server dapat menerima  image,png,image
+______________________________________________________________
+Accept-Language: id,en-us;q=0.7,en;q=0.3
+ket: menerima bahasa dari yahoo yang dituju yaitu menggunakan bahasa United Stated
+______________________________________________________________
+Accept-Encoding: gzip, deflate
+ket: Menerima Encoding Gzip Deflate
+______________________________________________________________
+Connection: keep-alive
+ket: koneksi yang sudah bisa diakses
+______________________________________________________________
+Referer: http://id.yahoo.com/
+ket: alamat yahoo konten yang merujuk pada konten tersebut.
+dengan melakukan pengecekan referer, halaman baru dapat mengetahui dari mana request
+atau panggilan HTTP berasal.
+
+______________________________________________________________
+
+Respont..
+
+HTTP/1.0 200 OK
+Accept-Ranges: bytes
+ket: menerima jarak dngan type bit
+______________________________________________________________
+Cache-Control: max-age=31536000,public
+ket: sebagai pengawas
+______________________________________________________________
+Content-Type: image/jpeg
+ket: Tipe konten image/jpeg
+
+_______________________________________________________________
+Date: Wed, 25 Sep 2013 07:17:26 GMT
+ket: tanggal memproses yahoo hari rabu 25 september 2013
+_______________________________________________________________
+Etag: "YM:1:5ae9c2c3-f811-449f-b1bb-2001ef9b9a000004e71d6d9064e6"
+ket: -
+_______________________________________________________________
+Expires: Sat, 05 Sep 2026 00:00:00 GMT
+ket:tanggal kadaluarsa sabtu 05 Sep 2026
+_______________________________________________________________
+Last-Modified: Tue, 24 Sep 2013 09:04:45 GMT
+ket: terakhir modifikasi selasa, 24 Sep 2013
+_______________________________________________________________
+Server: ATS/3.3.5-dev
+ket: -
+_______________________________________________________________
+Via: HTTP/1.1 web19.use105.mobstor.bf1.yahoo.com UserFiberFramework/1.0, http/1.1 l1.ycs.idc.yahoo.com (ApacheTrafficServer/3.3.5-dev)
+x-ysws-request-id: 7dbf3ee8-0714-4615-87bd-2a776da83946
+x-ysws-visited-replicas: gops.use105.mobstor.vip.bf1.yahoo.com
+ket: melalui protokol  
+_______________________________________________________________
+Age: 76903
+ket: 
+_______________________________________________________________
+X-Cache: HIT
+ket:
+_______________________________________________________________
+Content-Length: 21167
+ket: panjang konten 21167
+_______________________________________________________________
+Connection: Keep-Alive
+ket: koneksi yang sudah bisa diakses
+_______________________________________________________________
+Keep-Alive: 300
+ket: akses
+
